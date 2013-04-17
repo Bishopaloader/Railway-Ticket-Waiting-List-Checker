@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Check out the below links to see the train schedule : \n\n\n\n 
+1)  http://www.indianrail.gov.in/dont_Know_Station_Code.html
+        \n
+        \n
+        \n\n
+2)  http://www.erail.in/
+        \n
+        \n\n\n
+3)  http://www.trainenquiry.com/
+        \n
+        \n
+        "
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:autoLink="web"
+        />
+    
+
+</LinearLayout>

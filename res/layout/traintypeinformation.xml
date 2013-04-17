@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<ScrollView 
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+   >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Check out the below links to see the different type of trains: \n\n 
+Special Tourism Train:\nhttp://www.indianrail.gov.in/tourist_trn_list.html
+\n
+\n
+Hill Trains:\nhttp://www.indianrail.gov.in/hill_Trains.html
+\n
+\n
+Luxury Trains:\nhttp://www.indianrail.gov.in/luxury_Train.html
+\n
+\n
+Mail/Express/Superfast Trains:\nhttp://www.indianrail.gov.in/mail_express_trn_list.html
+\n
+Special Trains:\nhttp://www.indianrail.gov.in/special_trn_list.html
+\n
+\n
+Duronto Trains:\nhttp://www.indianrail.gov.in/duronto_trn_list.html
+\n
+\n
+Rajdhani Trains:\nhttp://www.indianrail.gov.in/rajdhani_trn_list.html
+\n
+\n
+Garibrath and Yuva Trains:\nhttp://www.indianrail.gov.in/garibrath_trn_list.html
+\n
+\n
+Shatabdi Trains:\nhttp://www.indianrail.gov.in/shatabdi_trn_list.html
+"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:autoLink="web"
+        />
+    
+</ScrollView>
+</LinearLayout>
